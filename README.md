@@ -1,5 +1,5 @@
 # ContinualRE
---
+
 
 
 
@@ -49,20 +49,22 @@ Datasets
 We provide all the datasets and word embeddings used in our experiments.
 
 + [[Download (datasets)]](https://cloud.tsinghua.edu.cn/f/75578dfc8d974cd98c58/?dl=1)
+
 + [[Download (word embeddings)]](https://cloud.tsinghua.edu.cn/f/199f28bf2ca24df49866/?dl=1)
 
 
 Run the experiments
+
 ==========
 
-####(0) To run the experiments, unpack the datasets and word embeddings first
+#### (0) To run the experiments, unpack the datasets and word embeddings first
 
 ```
 unzip data.zip -d data/
 unzip glove.zip -d glove/
 ```
 
-####(1) For FewRel
+#### (1) For FewRel
 
 ```
 cp -r data/ fewrel/
@@ -71,7 +73,7 @@ cd fewrel
 python run_multi_proto.py
 ```
 
-####(2) For SimpleQuestions
+#### (2) For SimpleQuestions
 
 ```
 cp -r data/ simque/
@@ -80,7 +82,7 @@ cd simque
 python run_multi_proto.py
 ```
 
-####(3) For TACRED
+#### (3) For TACRED
 
 ```
 cp -r data/ tacred/
