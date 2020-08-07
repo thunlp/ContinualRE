@@ -49,7 +49,7 @@ Datasets
 We provide all the datasets and word embeddings used in our experiments.
 
 + [[Download (datasets)]](https://cloud.tsinghua.edu.cn/f/75578dfc8d974cd98c58/?dl=1)
-+ [[Download (word embeddings)]](https://cloud.tsinghua.edu.cn/f/75578dfc8d974cd98c58/?dl=1)
++ [[Download (word embeddings)]](https://cloud.tsinghua.edu.cn/f/199f28bf2ca24df49866/?dl=1)
 
 
 Run the experiments
