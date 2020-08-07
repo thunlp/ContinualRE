@@ -54,7 +54,6 @@ We provide all the datasets and word embeddings used in our experiments.
 
 
 Run the experiments
-
 ==========
 
 #### (0) To run the experiments, unpack the datasets and word embeddings first
@@ -91,7 +90,7 @@ cd tacred
 python run_multi_proto.py
 ```
 
-####(4) For some special settings
+#### (4) For some special settings
 
 All the config files can be found in "./fewrel/config/", "./tacred/config/", and  "./simque/config/". By changing the config file name in the code "run\_multi\_proto.py", we can run experiments with different settings. In "./fewrel/config/", "./tacred/config/", and  "./simque/config/", we also provide code to generate customized settings.
 
